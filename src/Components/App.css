@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #4942E4;
+  color: white;
+}
+.menu{
+  background-color:black ;
+padding: 20px;
+
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(207, 237, 255);
+}
+.mainCon{
+  width: 80%;
+  margin:50px auto;
+}
+.contacts{
+  background-color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+.contacts img{
+  height: 60px;
+  margin: 0 15px;
+}
+.together{
+  display: flex;
+  align-items: center;
+}
+.equal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.incontacts p{
+  color: white;
+  text-decoration: none;
+}
+.boxContainer{
+  background-color: rgb(213, 213, 219);
+  width: fit-content;
+  margin: 10px auto;
+}
+.imageBox img{
+height: 300px;
+}
+.downBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.backBtn{
+
+  display: flex;
+  padding: 10px;
+  flex-direction: row-reverse;
+}
+.btnBox button{
+  margin: 10px;
+}
+.searchBox{
+  width: 100%;
+
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBox input {
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+}
+.link{
+  text-decoration: none;
+}
+
+/* button color  */
+.addbtn{
+  background-color: #0C134F;
+  color: white;
+  transition: transform 0.2s;
+  border-radius: 10px;
+}
+.addbtn:hover{
+  background-color:#11009E;
+  color: white;
+  transform: translateY(-2px);
+  transition: 0.4s;
+
+}
+.header{
+  font-weight: 900;
+  background-color: red;
+  font-size: 50px;
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, white, #97a8eb);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
